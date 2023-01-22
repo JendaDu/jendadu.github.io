@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
+  <link rel="stylesheet" href="style.css">
+  <title>Odkryvacka</title>
+</head>
+<body>
+  <script src="main.js"></script>
+  <div id="container">
+    <div id="left">
+      <div id="tymy">
+        <b>Body</b>
+        <br>
+      </div>
+      <br>
+      <button onclick="prebarvi();next();" id="next">&gt;</button>
+      <button onclick="odhal()" id="odhal">Odhal</button>
+      <div class="onoffswitch" onclick="zmena();">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked="">
+        <label class="onoffswitch-label" for="myonoffswitch">
+          <div class="onoffswitch-inner"></div>
+          <div class="onoffswitch-switch"></div>
+        </label>
+      </div>
+      <input type="box" id="sekund" value="1"> sekund
+    </div>
+    <div id="uprostred">
+      <img src="undefined" id="obrazek" name="obr">
+      <table id="tabulka">
+      </table>
+       <div id="podpis">
+        <a href="mailto:skokan.votruba@gmail.com">Skokan</a> & <a href="https://github.com/petrkucerak/odkryvacka/">contributors</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
